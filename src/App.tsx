@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import "./styles.css";
+import BOMB from "../public/ultra_bomb.png";
 
 function App() {
   return (
-    <div>
-      <h1>React Webpack</h1>
-    </div>
+    <>
+      <h1>React Webpack - {process.env.NODE_ENV} {process.env.name}</h1>
+      <img src={BOMB} alt="logo" width="300" height="200" />
+    </>
   )
 }
 
