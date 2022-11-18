@@ -1,11 +1,11 @@
-import React from 'react'
-import './styles.css'
-import BOMB from '../public/ultra_bomb.png'
-import { Counter } from './Counter'
+import React from 'react';
+import './styles.css';
+import BOMB from '../public/ultra_bomb.png';
+import { Counter } from './Counter';
 
 function App() {
-  const first = 'Lokendra'
-  const last = 'Lokendra'
+  const first = 'Lokendra';
+  const last = 'Lokendra';
   return (
     <>
       <h1>
@@ -15,7 +15,7 @@ function App() {
       <img src={BOMB} alt="logo" width="300" height="200" />
       <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
